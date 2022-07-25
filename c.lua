@@ -1,4 +1,4 @@
-local Library = local Kavo = {}
+local Kavo = {}
 
 local tween = game:GetService("TweenService")
 local tweeninfo = TweenInfo.new
@@ -2253,7 +2253,7 @@ function Kavo.CreateLib(kavName, themeList)
                 touch.BorderColor3 = Color3.fromRGB(27, 42, 53)
                 touch.Position = UDim2.new(0.0199999996, 0, 0.180000007, 0)
                 touch.Size = UDim2.new(0, 21, 0, 21)
-                touch.Image = "rbxassetid://3926305904"
+                touch.Image = "rbxassetid://10350567794"
                 touch.ImageColor3 = themeList.SchemeColor
                 touch.ImageRectOffset = Vector2.new(44, 964)
                 touch.ImageRectSize = Vector2.new(36, 36)
@@ -2393,7 +2393,7 @@ function Kavo.CreateLib(kavName, themeList)
                 toggleDisabled.BackgroundTransparency = 1.000
                 toggleDisabled.Position = UDim2.new(0.704659104, 0, 0.0657142699, 0)
                 toggleDisabled.Size = UDim2.new(0, 21, 0, 21)
-                toggleDisabled.Image = "rbxassetid://10350567794"
+                toggleDisabled.Image = "rbxassetid://3926309567"
                 toggleDisabled.ImageColor3 = themeList.SchemeColor
                 toggleDisabled.ImageRectOffset = Vector2.new(628, 420)
                 toggleDisabled.ImageRectSize = Vector2.new(48, 48)
@@ -2404,7 +2404,7 @@ function Kavo.CreateLib(kavName, themeList)
                 toggleEnabled.BackgroundTransparency = 1.000
                 toggleEnabled.Position = UDim2.new(0.704999983, 0, 0.0659999996, 0)
                 toggleEnabled.Size = UDim2.new(0, 21, 0, 21)
-                toggleEnabled.Image = "rbxassetid://10350567794"
+                toggleEnabled.Image = "rbxassetid://3926309567"
                 toggleEnabled.ImageColor3 = themeList.SchemeColor
                 toggleEnabled.ImageRectOffset = Vector2.new(784, 420)
                 toggleEnabled.ImageRectSize = Vector2.new(48, 48)
@@ -2642,5 +2642,4 @@ function Kavo.CreateLib(kavName, themeList)
     end  
     return Tabs
 end
-
 return Kavo
